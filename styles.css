@@ -1,0 +1,70 @@
+:root {
+  /* Color Scheme */
+  /* --color-primary: #1a1a1a;
+  --color-secondary: #ffcc00;
+  --color-accent: #e63946;
+  --color-background: #ffffff;
+  --color-text: #333333;
+  --color-text-secondary: #666666;
+  --color-link: #1a0dab;
+  --color-link-hover: #4a148c; */
+
+  --color-primary: #00e9bd;
+  --color-black: #151515;
+  --color-grey: #d9d9d9;
+  --color-white: #fefcfd;
+
+  --img-text-gap: 1.6rem;
+
+  --ycyr-img-mb: 0.8rem;
+  --ycyr-card-mb: 3rem;
+
+  --our-rooms__card__img-mb: 2.5rem;
+  --our-rooms__card__txt-gaps: 3rem;
+
+  --footer-color: #66666e;
+  --footer-rhozeland-book-color: #151515;
+  --footer-background: #d9d9d9;
+}
+
+.arrow-line {
+  position: relative;
+  height: 2px; /* Adjust the height/thickness of the line */
+}
+
+.arrow-line::after {
+  content: "";
+  position: absolute;
+  right: 0px; /* Adjust so the arrow aligns with the line end */
+  top: 50%;
+  border-style: solid;
+  border-width: 0 3px 3px 0; /* Adjust size of the arrow */
+  padding: 3px; /* Size of the arrow */
+  transform: translateY(-50%) rotate(-45deg);
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.marquee-slider {
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+.slider-item {
+  display: inline-block;
+  padding: 10px; /* Adjust as needed */
+  /* Any other styling you want for your items */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  } /* assuming the duplicate is 50% of the total width */
+}
