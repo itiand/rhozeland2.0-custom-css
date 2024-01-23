@@ -1,3 +1,8 @@
+/*utility*/
+.red-border {
+  border: red solid 1px;
+}
+
 :root {
   /* Color Scheme */
   /* --color-primary: #1a1a1a;
@@ -45,7 +50,6 @@
 }
 
 /* 
-
 .marquee-container {
   overflow: hidden;
   white-space: nowrap;
@@ -68,18 +72,5 @@
   }
   100% {
     transform: translateX(-33%);
-  }
-} */
-
-/* .slider-item {
-  animation: marquee 6000ms linear infinite;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
   }
 } */
