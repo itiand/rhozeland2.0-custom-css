@@ -1,0 +1,32 @@
+@keyframes slide {
+  from {
+    tansform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #d9d9d9;
+  color: #151515;
+}
+
+.marquee-item {
+  display: inline-block;
+  animation: 7s slide infinite linear !important;
+  margin: 0 18.75px;
+  min-width: max-content;
+}
+
+@media (max-width: 640px) {
+  .marquee-item {
+    margin: 0 10px;
+  }
+}
+
+.marquee-item h1 {
+  display: inline-block;
+}
