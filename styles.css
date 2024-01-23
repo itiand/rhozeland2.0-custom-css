@@ -44,20 +44,22 @@
   -webkit-transform: translateY(-50%) rotate(-45deg);
 }
 
+/* 
+
 .marquee-container {
   overflow: hidden;
   white-space: nowrap;
 }
 
 .marquee-slider {
-  display: inline-block;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   animation: marquee 10s linear infinite;
 }
 
 .slider-item {
-  display: inline-block;
-  padding: 10px; /* Adjust as needed */
-  /* Any other styling you want for your items */
+  padding: 10px;
 }
 
 @keyframes marquee {
@@ -65,6 +67,19 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
-  } /* assuming the duplicate is 50% of the total width */
+    transform: translateX(-33%);
+  }
+} */
+
+/* .slider-item {
+  animation: marquee 6000ms linear infinite;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
