@@ -1,0 +1,6 @@
+.tab-view {
+  display: none;
+}
+.tab-view.active-tab {
+  display: flex;
+}
