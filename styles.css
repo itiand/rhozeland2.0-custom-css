@@ -42,6 +42,11 @@
   color: var(--color-grey, #d9d9d9);
 }
 
+.bg-black-white {
+  background-color: var(--color-black, #151515);
+  color: var(--color-white, #d9d9d9);
+}
+
 /*ARROW LINE*/
 .arrow-line {
   position: relative;
