@@ -8,7 +8,7 @@
 .tab-items__i {
 }
 
-.tab-items__i.active-tab {
+[data-tab-target].active-tab {
   color: var(--color-primary);
 }
 
