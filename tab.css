@@ -2,12 +2,9 @@
   display: none;
 }
 
-.tab-items {
+[data-tab-target] {
+  cursor: pointer;
 }
-
-.tab-items__i {
-}
-
 [data-tab-target].active-tab {
   color: var(--color-primary);
 }
