@@ -1,6 +1,13 @@
 .tab-view {
   display: none;
 }
+
+.tab-items {
+}
+
+.tab-items__i {
+}
+
 .tab-view.active-tab {
   display: flex;
 }
