@@ -8,6 +8,10 @@
 .tab-items__i {
 }
 
+.tab-items__i.active-tab {
+  color: var(--color-primary);
+}
+
 .tab-view.active-tab {
   display: flex;
 }

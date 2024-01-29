@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabs = document.querySelectorAll("[data-tab-target]");
   const tabViews = document.querySelectorAll(".tab-view");
 
+  //
+
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       const selectedTabView = document.querySelector(tab.dataset.tabTarget);
