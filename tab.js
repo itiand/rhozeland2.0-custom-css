@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const tabs = document.querySelectorAll("[data-tab-target]"); // each tabItem
-  const tabViews = document.querySelectorAll(".tab-view"); //everything with a tab-view class
+  const dynamicTabs = document.querySelectorAll(".dynamic-tab"); //everything with a tab-view class
 
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       //remove active class to all elements with tab-views, --> therefore hides
-      tabViews.forEach((tabView) => {
+      dynamicTabs.forEach((tabView) => {
         tabView.classList.remove("active-tab");
       });
 
@@ -23,7 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       ////tab-items__i
       tab.classList.add("active-tab");
-      ////
     });
   });
 });

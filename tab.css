@@ -1,14 +1,15 @@
-.tab-view {
+.dynamic-tab {
   display: none;
 }
 
 [data-tab-target] {
   cursor: pointer;
 }
+
 [data-tab-target].active-tab {
   color: var(--color-primary);
 }
 
-.tab-view.active-tab {
+.dynamic-tab.active-tab {
   display: flex;
 }
