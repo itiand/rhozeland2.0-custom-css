@@ -15,18 +15,20 @@
 }
 
 .marquee-item {
+  overflow: hidden;
   display: inline-block;
-  animation: 7s slide infinite linear !important;
-  margin: 0 18.75px;
+  animation: 6s slide infinite linear !important;
+  /*margin: 0 18.75px;*/
   min-width: max-content;
 }
 
 @media (max-width: 640px) {
-  .marquee-item {
+  .marquee-item h1 {
     margin: 0 10px;
   }
 }
 
 .marquee-item h1 {
   display: inline-block;
+  margin: 0 18.75px;
 }

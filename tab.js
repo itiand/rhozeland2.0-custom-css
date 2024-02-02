@@ -7,11 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const selectedTabView = document.querySelectorAll(tab.dataset.tabTarget);
 
       //remove active class to all tab-headings
+      //resets
       tabs.forEach((tab) => {
         tab.classList.remove("active-tab");
       });
 
-      //remove active class to all elements with tab-views, --> therefore hides
+      //remove active class to all elements with tab-views, --> therefore //resets
       dynamicTabs.forEach((tabView) => {
         tabView.classList.remove("active-tab");
       });
