@@ -32,6 +32,9 @@
   --footer-background: #d9d9d9;
 }
 
+/*
+BACKGROUNDS
+*/
 .bg-tiffany-black {
   background-color: var(--color-primary, #151515);
   color: var(--color-black, #151515);
@@ -63,4 +66,14 @@
   padding: 3px; /* Size of the arrow */
   transform: translateY(-50%) rotate(-45deg);
   -webkit-transform: translateY(-50%) rotate(-45deg);
+}
+
+/*WP GRIDBUILDER FACETS*/
+.wpgb-facet-title {
+  display: none;
+}
+
+.wpgb-facet > fieldset:last-child,
+.wpgb-facet fieldset:last-child {
+  margin-bottom: 0 !important;
 }
