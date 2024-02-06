@@ -67,13 +67,3 @@ BACKGROUNDS
   transform: translateY(-50%) rotate(-45deg);
   -webkit-transform: translateY(-50%) rotate(-45deg);
 }
-
-/*WP GRIDBUILDER FACETS*/
-.wpgb-facet-title {
-  display: none;
-}
-
-.wpgb-facet > fieldset:last-child,
-.wpgb-facet fieldset:last-child {
-  margin-bottom: 0 !important;
-}

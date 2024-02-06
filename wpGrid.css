@@ -1,0 +1,18 @@
+/*
+WP GRIDBUILDER FACETS
+*/
+.wpgb-facet-title {
+  display: none;
+}
+
+.wpgb-facet > fieldset:last-child,
+.wpgb-facet fieldset:last-child {
+  margin-bottom: 0 !important;
+}
+
+/*custom styling for sort*/
+#wpgb-select-0::placeholder,
+.wpgb-select-toggle,
+.wpgb-select-separator {
+  color: red !important;
+}
