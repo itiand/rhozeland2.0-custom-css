@@ -1,0 +1,58 @@
+#brxe-xovndt {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+/* Remove default input styles and apply a bottom border */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"] {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #000;
+  width: fit-content;
+  max-width: 170px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="tel"] {
+  max-width: 150px;
+}
+
+:where(.brxe-form) .form-group {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0px;
+  align-items: end;
+  column-gap: 1rem;
+  width: fit-content;
+}
+
+:where(.brxe-form) input {
+  line-height: 1.5 !important;
+}
+
+:where(.brxe-form) label {
+  margin: 0px;
+  line-height: 1;
+  font-size: 3.6rem;
+  font-weight: 600;
+  letter-spacing: 1.44px;
+  text-transform: none;
+  white-space: nowrap;
+}
+
+#email-phone-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+#message-row .form-group {
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  row-gap: 1rem;
+}
