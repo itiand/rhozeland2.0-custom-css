@@ -9,6 +9,7 @@ window.onload = function () {
         <div class="form-group">
           <label for="form-field-8896d4">Hi I am</label>
           <input id="form-field-8896d4" name="form-field-49cf47" aria-label="Hi I am" type="text" placeholder="John Smith" required>
+          <span class="input-period">.</span>
         </div>
       </div>
       <div id="email-phone-row" class="form-row">
@@ -19,12 +20,13 @@ window.onload = function () {
         <div class="form-group">
           <label for="form-field-4af9ff">and my phone is</label>
           <input id="form-field-4af9ff" class="phone-input" name="form-field-sauqkj" aria-label="and my phone is" type="tel" placeholder="123-456-7891">
+          <span class="input-period">.</span>
         </div>
       </div>
       <div id="message-row" class="form-row">
         <div class="form-group">
           <label for="form-field-eee3af">My message is:</label>
-          <textarea id="form-field-eee3af" name="form-field-e10ea7" aria-label="my message is:" placeholder="Your Message" required></textarea>
+          <textarea id="form-field-eee3af" name="form-field-e10ea7" aria-label="my message is:" placeholder="Type your message here" required></textarea>
         </div>
       </div>
       <div class="form-group submit-button-wrapper">
